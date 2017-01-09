@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 128M
+  instances: 1
+  domain: mybluemix.net
+  name: sampleflask
+  host: sampleflask
+  disk_quota: 1024M
+  services:
+  - Speech to Text-vw
+  - Visual Recognition-vu
+  buildpack: python_buildpack
